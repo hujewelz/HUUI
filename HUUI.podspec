@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "HUUI"
   s.version      = "0.0.1"
-  s.summary      = "A short description of HUUI."
+  s.summary      = "UI for ios "
   s.homepage     = "https://github.com/hujewelz/HUUI"
   s.license      = "MIT"
   s.author             = { "Jewelz Hu" => "hujewelz@163.com" }
@@ -49,7 +49,7 @@ s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/hujewelz/HUUI.git", :tag => "#{s.version}" }
 
-  s.source_files  = "HUUI/UI/"
+  s.source_files  = "HUUI/UI/**"
   #s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
