@@ -49,7 +49,7 @@ s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/hujewelz/HUUI.git", :tag => "#{s.version}" }
 
-  s.source_files  = "HUUI/UI/**"
+  s.source_files  = "HUUI/UI"
   #s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
