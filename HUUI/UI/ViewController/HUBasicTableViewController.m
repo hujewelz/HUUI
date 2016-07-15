@@ -38,31 +38,15 @@
         //添加下拉刷新
         MJRefreshNormalHeader *header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(reloadNewdata:)];
         header.lastUpdatedTimeLabel.hidden = YES;
-        
-        UIView *headerView = [self refreshHeaderInView:header];
-        if ([headerView isKindOfClass:[UITableView class]]) {
-            UITableView  *tableView = (UITableView *)headerView;
-            tableView.mj_header = header;
-        }
-        else if ([headerView isKindOfClass:[UICollectionView class]]) {
-            UICollectionView  *collectionView = (UICollectionView *)headerView;
-            collectionView.mj_header = header;
-        }
+        self.tableView.mj_header = header;
         
     }
     
     if ([self respondsToSelector:@selector(refreshFooterInView:)] && [self refreshFooterInView:nil] != nil) {
         MJRefreshAutoNormalFooter *footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(reloadPagedata:)];
         [footer setTitle:@"已经到底了" forState:MJRefreshStateNoMoreData];
-        UIView *footerView = [self refreshFooterInView:footer];
-        if ([footerView isKindOfClass:[UITableView class]]) {
-            UITableView  *tableView = (UITableView *)footerView;
-            tableView.mj_footer = footer;
-        }
-        else if ([footerView isKindOfClass:[UICollectionView class]]) {
-            UICollectionView  *collectionView = (UICollectionView *)footerView;
-            collectionView.mj_footer = footer;
-        }
+        self.tableView.mj_footer = footer;
+      
     }
     
     

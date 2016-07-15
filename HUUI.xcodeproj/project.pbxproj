@@ -487,13 +487,13 @@
 		04D8E8BF1D3754EB00085BAA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				04D8E8C61D3754EB00085BAA /* HURefreshProtocol.h */,
 				04D8E8C01D3754EB00085BAA /* HUBasicTableViewController.h */,
 				04D8E8C11D3754EB00085BAA /* HUBasicTableViewController.m */,
 				04D8E8C21D3754EB00085BAA /* HUBasicViewController.h */,
 				04D8E8C31D3754EB00085BAA /* HUBasicViewController.m */,
 				04D8E8C41D3754EB00085BAA /* HUNavigationController.h */,
 				04D8E8C51D3754EB00085BAA /* HUNavigationController.m */,
-				04D8E8C61D3754EB00085BAA /* HURefreshProtocol.h */,
 				04D8E8C71D3754EB00085BAA /* HUTabBarController.h */,
 				04D8E8C81D3754EB00085BAA /* HUTabBarController.m */,
 			);
