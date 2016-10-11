@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046AF3351DAB959B00294374 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046AF3341DAB959B00294374 /* main.m */; };
+		046AF3381DAB959B00294374 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046AF3371DAB959B00294374 /* AppDelegate.m */; };
+		046AF33B1DAB959B00294374 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046AF33A1DAB959B00294374 /* ViewController.m */; };
+		046AF33E1DAB959B00294374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046AF33C1DAB959B00294374 /* Main.storyboard */; };
+		046AF3401DAB959B00294374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046AF33F1DAB959B00294374 /* Assets.xcassets */; };
+		046AF3431DAB959C00294374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046AF3411DAB959C00294374 /* LaunchScreen.storyboard */; };
+		046AF3551DAB96D900294374 /* HUUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046AF3501DAB95D500294374 /* HUUI.framework */; };
+		046AF35D1DAB9B9400294374 /* HUUIBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046AF3521DAB95D500294374 /* HUUIBundle.bundle */; };
+		046AF3611DAB9DBC00294374 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046AF3601DAB9DBC00294374 /* SVProgressHUD.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046AF34F1DAB95D500294374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046AF34A1DAB95D500294374 /* HUUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 046AF1BB1DAB94F000294374;
+			remoteInfo = HUUI;
+		};
+		046AF3511DAB95D500294374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046AF34A1DAB95D500294374 /* HUUI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 046AF1CA1DAB950800294374;
+			remoteInfo = HUUIBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046AF3301DAB959B00294374 /* HUUI Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HUUI Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046AF3341DAB959B00294374 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046AF3361DAB959B00294374 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046AF3371DAB959B00294374 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046AF3391DAB959B00294374 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046AF33A1DAB959B00294374 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046AF33D1DAB959B00294374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046AF33F1DAB959B00294374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046AF3421DAB959C00294374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046AF3441DAB959C00294374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046AF34A1DAB95D500294374 /* HUUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HUUI.xcodeproj; path = ../HUUI.xcodeproj; sourceTree = "<group>"; };
+		046AF3601DAB9DBC00294374 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046AF32D1DAB959B00294374 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046AF3551DAB96D900294374 /* HUUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046AF3271DAB959B00294374 = {
+			isa = PBXGroup;
+			children = (
+				046AF34A1DAB95D500294374 /* HUUI.xcodeproj */,
+				046AF3321DAB959B00294374 /* HUUI Example */,
+				046AF3311DAB959B00294374 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046AF3311DAB959B00294374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046AF3301DAB959B00294374 /* HUUI Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046AF3321DAB959B00294374 /* HUUI Example */ = {
+			isa = PBXGroup;
+			children = (
+				046AF3361DAB959B00294374 /* AppDelegate.h */,
+				046AF3371DAB959B00294374 /* AppDelegate.m */,
+				046AF3391DAB959B00294374 /* ViewController.h */,
+				046AF33A1DAB959B00294374 /* ViewController.m */,
+				046AF33C1DAB959B00294374 /* Main.storyboard */,
+				046AF33F1DAB959B00294374 /* Assets.xcassets */,
+				046AF3411DAB959C00294374 /* LaunchScreen.storyboard */,
+				046AF3441DAB959C00294374 /* Info.plist */,
+				046AF3331DAB959B00294374 /* Supporting Files */,
+			);
+			path = "HUUI Example";
+			sourceTree = "<group>";
+		};
+		046AF3331DAB959B00294374 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				046AF3601DAB9DBC00294374 /* SVProgressHUD.bundle */,
+				046AF3341DAB959B00294374 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		046AF34B1DAB95D500294374 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046AF3501DAB95D500294374 /* HUUI.framework */,
+				046AF3521DAB95D500294374 /* HUUIBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046AF32F1DAB959B00294374 /* HUUI Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046AF3471DAB959C00294374 /* Build configuration list for PBXNativeTarget "HUUI Example" */;
+			buildPhases = (
+				046AF32C1DAB959B00294374 /* Sources */,
+				046AF32D1DAB959B00294374 /* Frameworks */,
+				046AF32E1DAB959B00294374 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HUUI Example";
+			productName = "HUUI Example";
+			productReference = 046AF3301DAB959B00294374 /* HUUI Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046AF3281DAB959B00294374 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = hujewelz;
+				TargetAttributes = {
+					046AF32F1DAB959B00294374 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 046AF32B1DAB959B00294374 /* Build configuration list for PBXProject "HUUI Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046AF3271DAB959B00294374;
+			productRefGroup = 046AF3311DAB959B00294374 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 046AF34B1DAB95D500294374 /* Products */;
+					ProjectRef = 046AF34A1DAB95D500294374 /* HUUI.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				046AF32F1DAB959B00294374 /* HUUI Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		046AF3501DAB95D500294374 /* HUUI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = HUUI.framework;
+			remoteRef = 046AF34F1DAB95D500294374 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		046AF3521DAB95D500294374 /* HUUIBundle.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HUUIBundle.bundle;
+			remoteRef = 046AF3511DAB95D500294374 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046AF32E1DAB959B00294374 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046AF3611DAB9DBC00294374 /* SVProgressHUD.bundle in Resources */,
+				046AF35D1DAB9B9400294374 /* HUUIBundle.bundle in Resources */,
+				046AF3431DAB959C00294374 /* LaunchScreen.storyboard in Resources */,
+				046AF3401DAB959B00294374 /* Assets.xcassets in Resources */,
+				046AF33E1DAB959B00294374 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046AF32C1DAB959B00294374 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046AF33B1DAB959B00294374 /* ViewController.m in Sources */,
+				046AF3381DAB959B00294374 /* AppDelegate.m in Sources */,
+				046AF3351DAB959B00294374 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		046AF33C1DAB959B00294374 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046AF33D1DAB959B00294374 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046AF3411DAB959C00294374 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046AF3421DAB959C00294374 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046AF3451DAB959C00294374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046AF3461DAB959C00294374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046AF3481DAB959C00294374 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../HUUI/**";
+				INFOPLIST_FILE = "HUUI Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hujewelz.HUUI-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		046AF3491DAB959C00294374 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../HUUI/**";
+				INFOPLIST_FILE = "HUUI Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hujewelz.HUUI-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046AF32B1DAB959B00294374 /* Build configuration list for PBXProject "HUUI Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046AF3451DAB959C00294374 /* Debug */,
+				046AF3461DAB959C00294374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046AF3471DAB959C00294374 /* Build configuration list for PBXNativeTarget "HUUI Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046AF3481DAB959C00294374 /* Debug */,
+				046AF3491DAB959C00294374 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046AF3281DAB959B00294374 /* Project object */;
+}
