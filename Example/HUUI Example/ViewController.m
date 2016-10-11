@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SVProgressHUD.h"
+
 
 @interface ViewController ()
 
@@ -19,7 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    [SVProgressHUD show];
     
     [super didLoadSubViews];
 }

@@ -13,27 +13,8 @@
 		046AF33E1DAB959B00294374 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046AF33C1DAB959B00294374 /* Main.storyboard */; };
 		046AF3401DAB959B00294374 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046AF33F1DAB959B00294374 /* Assets.xcassets */; };
 		046AF3431DAB959C00294374 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046AF3411DAB959C00294374 /* LaunchScreen.storyboard */; };
-		046AF3551DAB96D900294374 /* HUUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 046AF3501DAB95D500294374 /* HUUI.framework */; };
-		046AF35D1DAB9B9400294374 /* HUUIBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046AF3521DAB95D500294374 /* HUUIBundle.bundle */; };
-		046AF3611DAB9DBC00294374 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046AF3601DAB9DBC00294374 /* SVProgressHUD.bundle */; };
+		35F1BF6C54FC430A8611F374 /* libPods-HUUI Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 455CBADD3F03816D3DC0DBDC /* libPods-HUUI Example.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		046AF34F1DAB95D500294374 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 046AF34A1DAB95D500294374 /* HUUI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 046AF1BB1DAB94F000294374;
-			remoteInfo = HUUI;
-		};
-		046AF3511DAB95D500294374 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 046AF34A1DAB95D500294374 /* HUUI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 046AF1CA1DAB950800294374;
-			remoteInfo = HUUIBundle;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		046AF3301DAB959B00294374 /* HUUI Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HUUI Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,8 +27,9 @@
 		046AF33F1DAB959B00294374 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		046AF3421DAB959C00294374 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		046AF3441DAB959C00294374 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		046AF34A1DAB95D500294374 /* HUUI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HUUI.xcodeproj; path = ../HUUI.xcodeproj; sourceTree = "<group>"; };
-		046AF3601DAB9DBC00294374 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		455CBADD3F03816D3DC0DBDC /* libPods-HUUI Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HUUI Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08048FDAA1D65D9AF1A6BF1 /* Pods-HUUI Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUUI Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HUUI Example/Pods-HUUI Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D60828942770D0CB1FA2DF63 /* Pods-HUUI Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HUUI Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HUUI Example/Pods-HUUI Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046AF3551DAB96D900294374 /* HUUI.framework in Frameworks */,
+				35F1BF6C54FC430A8611F374 /* libPods-HUUI Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +47,10 @@
 		046AF3271DAB959B00294374 = {
 			isa = PBXGroup;
 			children = (
-				046AF34A1DAB95D500294374 /* HUUI.xcodeproj */,
 				046AF3321DAB959B00294374 /* HUUI Example */,
 				046AF3311DAB959B00294374 /* Products */,
+				3181EC1848B272DE7610F450 /* Pods */,
+				EAA40F791043612259E96216 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,19 +81,26 @@
 		046AF3331DAB959B00294374 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				046AF3601DAB9DBC00294374 /* SVProgressHUD.bundle */,
 				046AF3341DAB959B00294374 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		046AF34B1DAB95D500294374 /* Products */ = {
+		3181EC1848B272DE7610F450 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				046AF3501DAB95D500294374 /* HUUI.framework */,
-				046AF3521DAB95D500294374 /* HUUIBundle.bundle */,
+				A08048FDAA1D65D9AF1A6BF1 /* Pods-HUUI Example.debug.xcconfig */,
+				D60828942770D0CB1FA2DF63 /* Pods-HUUI Example.release.xcconfig */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EAA40F791043612259E96216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				455CBADD3F03816D3DC0DBDC /* libPods-HUUI Example.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 046AF3471DAB959C00294374 /* Build configuration list for PBXNativeTarget "HUUI Example" */;
 			buildPhases = (
+				71C77BC9B31FA457555080F5 /* [CP] Check Pods Manifest.lock */,
 				046AF32C1DAB959B00294374 /* Sources */,
 				046AF32D1DAB959B00294374 /* Frameworks */,
 				046AF32E1DAB959B00294374 /* Resources */,
+				2137BBA8007285D2A0DBA84E /* [CP] Embed Pods Frameworks */,
+				2005B59C8CDCD417B7EB29E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,12 +151,6 @@
 			mainGroup = 046AF3271DAB959B00294374;
 			productRefGroup = 046AF3311DAB959B00294374 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 046AF34B1DAB95D500294374 /* Products */;
-					ProjectRef = 046AF34A1DAB95D500294374 /* HUUI.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				046AF32F1DAB959B00294374 /* HUUI Example */,
@@ -171,30 +158,11 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		046AF3501DAB95D500294374 /* HUUI.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = HUUI.framework;
-			remoteRef = 046AF34F1DAB95D500294374 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		046AF3521DAB95D500294374 /* HUUIBundle.bundle */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = HUUIBundle.bundle;
-			remoteRef = 046AF3511DAB95D500294374 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		046AF32E1DAB959B00294374 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046AF3611DAB9DBC00294374 /* SVProgressHUD.bundle in Resources */,
-				046AF35D1DAB9B9400294374 /* HUUIBundle.bundle in Resources */,
 				046AF3431DAB959C00294374 /* LaunchScreen.storyboard in Resources */,
 				046AF3401DAB959B00294374 /* Assets.xcassets in Resources */,
 				046AF33E1DAB959B00294374 /* Main.storyboard in Resources */,
@@ -202,6 +170,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2005B59C8CDCD417B7EB29E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HUUI Example/Pods-HUUI Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2137BBA8007285D2A0DBA84E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HUUI Example/Pods-HUUI Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71C77BC9B31FA457555080F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		046AF32C1DAB959B00294374 /* Sources */ = {
@@ -320,9 +336,10 @@
 		};
 		046AF3481DAB959C00294374 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08048FDAA1D65D9AF1A6BF1 /* Pods-HUUI Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = "${SRCROOT}/../HUUI/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "HUUI Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -333,9 +350,10 @@
 		};
 		046AF3491DAB959C00294374 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D60828942770D0CB1FA2DF63 /* Pods-HUUI Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = "${SRCROOT}/../HUUI/**";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "HUUI Example/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

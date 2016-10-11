@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HUUI"
-  s.version      = "0.0.1"
+  s.version      = "0.1.2"
   s.summary      = "UI for ios "
   s.homepage     = "https://github.com/hujewelz/HUUI"
   s.license      = "MIT"
@@ -49,8 +49,8 @@ s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/hujewelz/HUUI.git", :tag => "#{s.version}" }
 
-  s.source_files  = "HUUI/UI/**/*.{h,m}"
-  s.resources = "HUUI/UI/**/*.{xib,bundle}"
+  s.source_files  = "HUUI/**/*.{h,m}"
+  s.resources = "HUUI/**/*.{xib,bundle}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -77,6 +77,7 @@ s.platform     = :ios, "7.0"
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+  #s.dependency "Masonry"
+  #s.dependency "MJRefresh"
 
 end
