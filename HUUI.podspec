@@ -16,13 +16,12 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HUUI"
-  s.version      = "0.1.2"
+  s.version      = "0.0.8"
   s.summary      = "UI for ios "
   s.homepage     = "https://github.com/hujewelz/HUUI"
   s.license      = "MIT"
   s.author             = { "Jewelz Hu" => "hujewelz@163.com" }
   # Or just: s.author    = "Jewelz Hu"
-  # s.authors            = { "Jewelz Hu" => "hujewelz@163.com" }
   # s.social_media_url   = "http://twitter.com/Jewelz Hu"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
